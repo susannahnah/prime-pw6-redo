@@ -1,0 +1,19 @@
+{
+  "name": "prime-pw-week-6-assignment",
+  "version": "1.0.0",
+  "description": "JavaScript can do some amazing things to our web pages! But sometimes we would rather write less code and accomplish the same things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeAcademy/prime-pw-week-6-assignment.git"
+  },
+  "author": "Prime Digital Academy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/prime-pw-week-6-assignment/issues"
+  },
+  "homepage": "https://github.com/PrimeAcademy/prime-pw-week-6-assignment#readme"
+}
