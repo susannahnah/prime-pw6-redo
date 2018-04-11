@@ -33,7 +33,7 @@ Also an "add car" button that, when clicked, uses the existing "newCar" function
 - have a maximum number of spaces in the garage. Disable inputs if the garage is full
 
 ### Pro Mode
-- add an "image" input field
+- add another input field, this one should take in text for a url to an image (like a search result with you search for `car` in Google image search)
 - display the image for each car as well as it's year/make/model text
 
 ### Assignment Submission
