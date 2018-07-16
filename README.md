@@ -33,3 +33,4 @@ Also an "add car" button that, when clicked, uses the existing "newCar" function
 - have a maximum number of spaces in the garage. Disable inputs if the garage is full
 - add another input field, this one should take in text for a url to an image (like a Google image result when you search for `car`), and display the image (using an `<img>` tag) for each car as well as it's year/make/model text 
 
+**REMINDER**: Make sure to respond to this week's Slack discussion question!
