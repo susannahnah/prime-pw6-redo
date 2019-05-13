@@ -1,49 +1,23 @@
 $( document ).ready( readyNow );
 
+  let garage = [];
+  //create empty Array
+
+  function newCar(){
+    console.log( 'in newCar:' );
+      let newCarObject = {
+        year: $( '#yearIn' ).val(),
+        make: $( '#makeIn' ).val(),
+        model: $( '#modelIn' ).val()
+      }; //push cars into array
+    garage.push(newCarObject);
+    //empty inputs
+    $( '#yearIn' ).val( '' ),
+    $( '#makeIn' ).val( '' ),
+    $( '#modelIn' ).val( '' );
+  } // end newCar
+  //empty inputs
+
 function readyNow(){
-  console.log( 'JQ' );
-
-function addNewCar(){
-  console.log( 'in addNewCar' );
-  //get user inputs
-  //create new object
-} //end addNewCar
-
-  $( '#addNewCarButton' ).on( 'click', addNewCar );
+  $( '#addNewCarButton' ).on( 'click', newCar );
 }
-//end readyNow
-//handle click event
-
-let garage = [];
-//create empty Array
-
-function addNewCar(){
-  console.log( 'addNewCar pressed' );
-  let buttonOutput = 'Car added, ' +  $( '#makeInput').val();
-  console.log(buttonOutput);
-}
-
-function addNewCar(){
-  console.log( 'addNewCar pressed' );
-  let buttonOutput = $( '#modelInput').val();
-  console.log(buttonOutput);
-}
-
-function addNewCar(){
-  console.log( 'addNewCar pressed' );
-  let buttonOutput = $( '#yearInput').val();
-  console.log(buttonOutput);
-}
-//target car input elements
-
-
-function newCar( yearIn, makeIn, modelIn ){
-  console.log( 'in newCar:', yearIn, makeIn, modelIn );
-  let newCarObject = {
-    year: yearIn,
-    make: makeIn,
-    model: modelIn
-  };
-  garage.push(newCarObject);
-  return true;
-} // end newCar
